@@ -49,9 +49,9 @@ function endGame(draw){
     if(draw){
         winningMessageTextElement.innerText = 'Empate!'
     } else{
-        winningMessageTextElement.innerText = `${circleTurn ? "O 'O'" : 
-    "O 'X'"} Ganhou!`
-    }
+        winningMessageTextElement.innerText = `${circleTurn ? "The 'O'" : "The 'X'"} Won! 
+        Want to play again?
+        `}
     winningMessageElement.classList.add('show')
 }
 
